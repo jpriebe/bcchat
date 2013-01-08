@@ -1,0 +1,14 @@
+Logfile initialized
+[INFO] logfile = /Users/priebe/Documents/Titanium_Studio_Workspace/bcchat/build.log
+[DEBUG] /Users/priebe/Library/Application Support/Titanium/mobilesdk/osx/2.1.3.GA/android/builder.py simulator BC Chat /Users/priebe/android-sdks /Users/priebe/Documents/Titanium_Studio_Workspace/bcchat com.smorgasbork.bcchat 6 HVGA 
+[INFO] Building BC Chat for Android ... one moment
+[INFO] Titanium SDK version: 2.1.3 (10/02/12 16:16 15997d0)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[ERROR] Timed out waiting for emulator to be ready, you may need to close the emulator and try again
+[INFO] Android Emulator has exited

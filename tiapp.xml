@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">kzPDmLVX4qRWJni2nxd2tcvXBqnoTjJV</property>
+    <property name="acs-oauth-key-production" type="string">CsyFCiSPQ7TAp3pI5Bm7bZkrxwNojqLo</property>
+    <property name="acs-api-key-production" type="string">i0fIP2LvpRWmMRkFA6KZkgnsvyhCFMQF</property>
+    <property name="acs-oauth-secret-development" type="string">MFxoLcQWTRNYLGnCy7Fatz7gBlSf4KEP</property>
+    <property name="acs-oauth-key-development" type="string">Z1YoeTyzPQzGWVRHsQkBElfK5RUmoZSw</property>
+    <property name="acs-api-key-development" type="string">NWsNeGMhTC0brsfW0uX15IpFdUDk9dvl</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.3.GA</sdk-version>
+    <id>com.smorgasbork.bcchat</id>
+    <name>BC Chat</name>
+    <version>1.0</version>
+    <publisher>priebe</publisher>
+    <url>http://smorgasbork.com</url>
+    <description>not specified</description>
+    <copyright>2012 by priebe</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>8eb41bee-f9f4-4a89-96e3-5d14a9dcfe3a</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules/>
+</ti:app>
